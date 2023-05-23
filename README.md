@@ -37,10 +37,11 @@
 ​		首先确保`/etc/clash/`目录存在，同时该目录下存在clash程序或者clash的链接，文件名或链接名为clash。
 
 1. 输入`sudo apt install screen`来安装screen。
-2. 输入`git clone https://github.com/AbdusalamAblimit/clash-manager.git`下载项目。
-3. 输入`rm -rf ./clash-manager/.git/`删除git仓库相关的文件。
-4. 输入`sudo mv ./clash-manager/ /etc/clash/`将程序移动到目标目录。
-5. 在桌面创建一个名为`ClashManager.desktop`的文件，并通过文本编辑器打开，输入以下内容：
+2. 输入`sudo apt install python3-tk`来安装tkinter库。
+3. 输入`git clone https://github.com/AbdusalamAblimit/clash-manager.git`下载项目。
+4. 输入`rm -rf ./clash-manager/.git/`删除git仓库相关的文件。
+5. 输入`sudo mv ./clash-manager/ /etc/clash/`将程序移动到目标目录。
+6. 在桌面创建一个名为`ClashManager.desktop`的文件，并通过文本编辑器打开，输入以下内容：
 
 ```bash
 [Desktop Entry]
